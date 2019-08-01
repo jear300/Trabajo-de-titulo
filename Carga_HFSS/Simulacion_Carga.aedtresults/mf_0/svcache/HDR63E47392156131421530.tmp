@@ -1,0 +1,66 @@
+SimValueCacheVersionID=1
+$begin 'SimValueInfos'
+	NextUniqueID=3
+	MoveBackwards=false
+	$begin 'SimValue'
+		ID=0
+		$begin 'SimValueParams'
+			QuantityName='S(1,1)'
+			ValueState(90, 15, 1, 2)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=1
+		$begin 'SimValueParams'
+			QuantityName='Volume(Carga)'
+			ValueState(787, 14, 1, 1)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=2
+		$begin 'SimValueParams'
+			QuantityName='S(port1,port1)'
+			ValueState(90, 15, 1, 2)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+$end 'SimValueInfos'
+$begin 'SimValueCache'
+	$begin 'DesignMap'
+		DesignID=0
+		$begin 'SolutionMap'
+			$begin 'ContextMap'
+				SolutionID=63
+			$end 'ContextMap'
+			$begin 'ContextMap'
+				SolutionID=64
+			$end 'ContextMap'
+			$begin 'ContextMap'
+				SolutionID=277
+				$begin 'VersionMap'
+					$begin 'ReportTypeSolnDef'
+						ReportType=0
+						SimValueContext(3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
+					$end 'ReportTypeSolnDef'
+					$begin 'MajorVVMap'
+						VersionID=645
+						$begin 'MinorVVMap'
+							MajorVariation='a_guia=\'2.54mm\' ajuste_posy=\'2.36985226280624mm\' ancho_carga=\'20mm\' b=\'5.04569117647mm\' b_guia=\'1.27mm\' delta_carga=\'1mm\' grosor=\'0.95\' l_guia=\'9.73970452561247mm\' largo_carga=\'1.3mm\' rot_carga=\'15deg\' tamano_extra=\'0.5mm\' z_carga=\'20mm\' zpos_carga=\'0mm\''
+							MinorCacheFile='min4D3D20164156467395010.tmp'
+						$end 'MinorVVMap'
+						$begin 'MinorVVMap'
+							MajorVariation='a_guia=\'2.54mm\' ajuste_posy=\'2.36985226280624mm\' ancho_carga=\'20mm\' b=\'5.04569117647mm\' b_guia=\'1.27mm\' delta_carga=\'1mm\' grosor=\'0.95\' l_guia=\'9.73970452561247mm\' largo_carga=\'1.3mm\' rot_carga=\'15deg\' tamano_extra=\'2mm\' z_carga=\'20mm\' zpos_carga=\'0mm\''
+							MinorCacheFile='min533220164156467441713.tmp'
+						$end 'MinorVVMap'
+						$begin 'MinorVVMap'
+							MajorVariation='a_guia=\'2.54mm\' ajuste_posy=\'2.36985226280624mm\' ancho_carga=\'20mm\' b=\'5.04569117647mm\' b_guia=\'1.27mm\' delta_carga=\'1mm\' grosor=\'0.95\' l_guia=\'9.73970452561247mm\' largo_carga=\'1.3mm\' rot_carga=\'15deg\' tamano_extra=\'4mm\' z_carga=\'20mm\' zpos_carga=\'0mm\''
+							MinorCacheFile='min6AC820164156467626616.tmp'
+						$end 'MinorVVMap'
+					$end 'MajorVVMap'
+				$end 'VersionMap'
+			$end 'ContextMap'
+		$end 'SolutionMap'
+	$end 'DesignMap'
+$end 'SimValueCache'
