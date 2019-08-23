@@ -1,0 +1,2375 @@
+$begin 'soln'
+	ObjectType='HfssModal'
+	SolutionType='HfssInterpolatingSweep'
+	MajorVersion=2
+	MinorVersion=0
+	Producer=''
+	Name='Sweep'
+	AdaptivePass=-1
+	$begin 'Frequencies'
+		$begin 'DataPoint'
+			Frequency=25000000000
+			DataType='None'
+			$begin 'SMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(0.002974981644008334, 0.004618837508770393)
+					c(8.653230515465396e-05, 6.674971312502439e-07)
+				$end 'r0'
+				$begin 'r1'
+					c(8.653230512666065e-05, 6.674971159814416e-07)
+					c(0.001330503726026278, 0.002064032355715033)
+				$end 'r1'
+			$end 'SMatrix'
+			EnergyError=0
+			IeEnergyError=0
+			$begin 'Gamma'
+				n=2
+				$begin 'r0'
+					c(397.6571745296496, 0)
+					c(397.6562994798478, 0)
+				$end 'r0'
+			$end 'Gamma'
+			$begin 'Zpi'
+				n=2
+				$begin 'r0'
+					c(0, 306.1548438780612)
+					c(0, 306.1581561668552)
+				$end 'r0'
+			$end 'Zpi'
+			$begin 'TerminalPMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(6.661338147750934e-16, 2)
+					c(0, 0)
+				$end 'r0'
+				$begin 'r1'
+					c(0, 0)
+					c(-4.440892098500623e-16, 2)
+				$end 'r1'
+			$end 'TerminalPMatrix'
+		$end 'DataPoint'
+		$begin 'DataPoint'
+			Frequency=27812500000
+			DataType='None'
+			$begin 'SMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(0.003264778235052113, 0.002711770226631865)
+					c(0.000747921321989012, 2.681082477488591e-06)
+				$end 'r0'
+				$begin 'r1'
+					c(0.0007479213218473206, 2.681082414349366e-06)
+					c(0.001040915496853811, 0.001159327262723385)
+				$end 'r1'
+			$end 'SMatrix'
+			EnergyError=0
+			IeEnergyError=0
+			$begin 'Gamma'
+				n=2
+				$begin 'r0'
+					c(304.7080607829994, 0)
+					c(304.7069188043482, 0)
+				$end 'r0'
+			$end 'Gamma'
+			$begin 'Zpi'
+				n=2
+				$begin 'r0'
+					c(0, 444.4898797317926)
+					c(0, 444.4942347104724)
+				$end 'r0'
+			$end 'Zpi'
+			$begin 'TerminalPMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(-4.440892098500621e-16, 1.999999999999999)
+					c(0, 0)
+				$end 'r0'
+				$begin 'r1'
+					c(0, 0)
+					c(-0.0002272137230879316, 1.998158422925209)
+				$end 'r1'
+			$end 'TerminalPMatrix'
+		$end 'DataPoint'
+		$begin 'DataPoint'
+			Frequency=29218749999.99999
+			DataType='None'
+			$begin 'SMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(0.002242214837976819, 0.001206682270118797)
+					c(0.003420789580668795, 5.227638240418384e-06)
+				$end 'r0'
+				$begin 'r1'
+					c(0.003420789580668035, 5.227638204722559e-06)
+					c(-0.0003858045435701785, 0.0004477459134001318)
+				$end 'r1'
+			$end 'SMatrix'
+			EnergyError=0
+			IeEnergyError=0
+			$begin 'Gamma'
+				n=2
+				$begin 'r0'
+					c(239.9945481834222, 0)
+					c(239.9930982734041, 0)
+				$end 'r0'
+			$end 'Gamma'
+			$begin 'Zpi'
+				n=2
+				$begin 'r0'
+					c(0, 592.8705624100685)
+					c(0, 592.8754736436916)
+				$end 'r0'
+			$end 'Zpi'
+			$begin 'TerminalPMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(0, 2)
+					c(0, 0)
+				$end 'r0'
+				$begin 'r1'
+					c(0, 0)
+					c(9.493978924284326e-18, 2)
+				$end 'r1'
+			$end 'TerminalPMatrix'
+		$end 'DataPoint'
+		$begin 'DataPoint'
+			Frequency=29921874999.99999
+			DataType='None'
+			$begin 'SMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(0.0002640253675163517, -0.000337176865270185)
+					c(0.00924681159607222, -0.0005978134309709898)
+				$end 'r0'
+				$begin 'r1'
+					c(0.009246811596054493, -0.0005978134308694687)
+					c(-0.002228354912334751, 0.0004407398204193641)
+				$end 'r1'
+			$end 'SMatrix'
+			EnergyError=0
+			IeEnergyError=0
+			$begin 'Gamma'
+				n=2
+				$begin 'r0'
+					c(198.2944705862499, 0)
+					c(198.2927157668283, 0)
+				$end 'r0'
+			$end 'Gamma'
+			$begin 'Zpi'
+				n=2
+				$begin 'r0'
+					c(0, 734.8019285633608)
+					c(0, 734.8066537048675)
+				$end 'r0'
+			$end 'Zpi'
+			$begin 'TerminalPMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(-7.939364252440754e-08, 1.999999963330363)
+					c(0, 0)
+				$end 'r0'
+				$begin 'r1'
+					c(0, 0)
+					c(2.000006639765614, -5.918908923284203e-07)
+				$end 'r1'
+			$end 'TerminalPMatrix'
+		$end 'DataPoint'
+		$begin 'DataPoint'
+			Frequency=30624999999.99999
+			DataType='None'
+			$begin 'SMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(-0.005306780049467608, -0.002409494580482461)
+					c(0.03384748320546033, -0.0001253356217594529)
+				$end 'r0'
+				$begin 'r1'
+					c(0.03384748320533115, -0.0001253356216838059)
+					c(-0.008623404855858552, -0.001246331736783508)
+				$end 'r1'
+			$end 'SMatrix'
+			EnergyError=0
+			IeEnergyError=0
+			$begin 'Gamma'
+				n=2
+				$begin 'r0'
+					c(143.5598363983912, 0)
+					c(143.5574125144232, 0)
+				$end 'r0'
+			$end 'Gamma'
+			$begin 'Zpi'
+				n=2
+				$begin 'r0'
+					c(0, 1038.756246889985)
+					c(0, 1038.75741923208)
+				$end 'r0'
+			$end 'Zpi'
+			$begin 'TerminalPMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(4.440892098500625e-16, 2)
+					c(0, 0)
+				$end 'r0'
+				$begin 'r1'
+					c(0, 0)
+					c(0, 2)
+				$end 'r1'
+			$end 'TerminalPMatrix'
+		$end 'DataPoint'
+		$begin 'DataPoint'
+			Frequency=30976562499.99999
+			DataType='None'
+			$begin 'SMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(-0.0107459792796375, -0.005265893637871064)
+					c(0.0851977955345051, -0.0006742051461594621)
+				$end 'r0'
+				$begin 'r1'
+					c(0.08519779553446023, -0.0006742051459894391)
+					c(-0.01439279567584528, -0.00259563658071397)
+				$end 'r1'
+			$end 'SMatrix'
+			EnergyError=0
+			IeEnergyError=0
+			$begin 'Gamma'
+				n=2
+				$begin 'r0'
+					c(105.3129729802235, 0)
+					c(105.3096687822994, 0)
+				$end 'r0'
+			$end 'Gamma'
+			$begin 'Zpi'
+				n=2
+				$begin 'r0'
+					c(0, 1432.131632119133)
+					c(0, 1432.119558191728)
+				$end 'r0'
+			$end 'Zpi'
+			$begin 'TerminalPMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(0, 2)
+					c(0, 0)
+				$end 'r0'
+				$begin 'r1'
+					c(0, 0)
+					c(0.0001033262753327748, 2.001468210923867)
+				$end 'r1'
+			$end 'TerminalPMatrix'
+		$end 'DataPoint'
+		$begin 'DataPoint'
+			Frequency=31152343749.99999
+			DataType='None'
+			$begin 'SMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(-0.01160919381053971, -0.008743325487554411)
+					c(0.161238548659759, -0.002083721500048343)
+				$end 'r0'
+				$begin 'r1'
+					c(0.1612385486598858, -0.00208372150026802)
+					c(-0.0154660799969405, -0.004343034552816909)
+				$end 'r1'
+			$end 'SMatrix'
+			EnergyError=0
+			IeEnergyError=0
+			$begin 'Gamma'
+				n=2
+				$begin 'r0'
+					c(79.31442378994289, 0)
+					c(79.31003645335242, 0)
+				$end 'r0'
+			$end 'Gamma'
+			$begin 'Zpi'
+				n=2
+				$begin 'r0'
+					c(0, 1912.079129802239)
+					c(0, 1912.032827812347)
+				$end 'r0'
+			$end 'Zpi'
+			$begin 'TerminalPMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(2.220446049250316e-16, 2.000000000000002)
+					c(0, 0)
+				$end 'r0'
+				$begin 'r1'
+					c(0, 0)
+					c(0.0001799327161407924, 1.999810630279099)
+				$end 'r1'
+			$end 'TerminalPMatrix'
+		$end 'DataPoint'
+		$begin 'DataPoint'
+			Frequency=31328124999.99999
+			DataType='None'
+			$begin 'SMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(0.03632745214731603, -0.02767087527940802)
+					c(0.4679936936594273, -0.01672415296931998)
+				$end 'r0'
+				$begin 'r1'
+					c(0.4679936936601597, -0.01672415297084425)
+					c(0.03304034552411816, -0.01687362165966061)
+				$end 'r1'
+			$end 'SMatrix'
+			EnergyError=0
+			IeEnergyError=0
+			$begin 'Gamma'
+				n=2
+				$begin 'r0'
+					c(38.25665749539099, 0)
+					c(38.24756075650033, 0)
+				$end 'r0'
+			$end 'Gamma'
+			$begin 'Zpi'
+				n=2
+				$begin 'r0'
+					c(0, 3982.038433449326)
+					c(0, 3981.464313406983)
+				$end 'r0'
+			$end 'Zpi'
+			$begin 'TerminalPMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(6.661338147750943e-16, 2.000000000000001)
+					c(0, 0)
+				$end 'r0'
+				$begin 'r1'
+					c(0, 0)
+					c(-3.457027460130966e-05, 2.000427937149093)
+				$end 'r1'
+			$end 'TerminalPMatrix'
+		$end 'DataPoint'
+		$begin 'DataPoint'
+			Frequency=31372070312.49999
+			DataType='None'
+			$begin 'SMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(0.3231513214451187, -0.1419986351110477)
+					c(1.03200871464259, -0.1264008462417727)
+				$end 'r0'
+				$begin 'r1'
+					c(1.032008714643852, -0.1264008462429612)
+					c(0.3249820850472913, -0.118594186797329)
+				$end 'r1'
+			$end 'SMatrix'
+			EnergyError=0
+			IeEnergyError=0
+			$begin 'Gamma'
+				n=2
+				$begin 'r0'
+					c(15.89107801145893, 0)
+					c(15.86916574588412, 0)
+				$end 'r0'
+			$end 'Gamma'
+			$begin 'Zpi'
+				n=2
+				$begin 'r0'
+					c(0, 9533.118181620956)
+					c(0, 9524.7204746108)
+				$end 'r0'
+			$end 'Zpi'
+			$begin 'TerminalPMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(6.661338147750946e-16, 2.000000000000001)
+					c(0, 0)
+				$end 'r0'
+				$begin 'r1'
+					c(0, 0)
+					c(-1.810309023079575e-06, 2.000034383180759)
+				$end 'r1'
+			$end 'TerminalPMatrix'
+		$end 'DataPoint'
+		$begin 'DataPoint'
+			Frequency=31377563476.56249
+			DataType='None'
+			$begin 'SMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(0.7809409124368014, -0.4696319676880788)
+					c(1.590392233995668, -0.44874611935116)
+				$end 'r0'
+				$begin 'r1'
+					c(1.590392233990531, -0.4487461193389768)
+					c(0.791146032942915, -0.4334520286709105)
+				$end 'r1'
+			$end 'SMatrix'
+			EnergyError=0
+			IeEnergyError=0
+			$begin 'Gamma'
+				n=2
+				$begin 'r0'
+					c(10.05118465244269, 0)
+					c(10.01650508009584, 0)
+				$end 'r0'
+			$end 'Gamma'
+			$begin 'Zpi'
+				n=2
+				$begin 'r0'
+					c(0, 14888.68144715909)
+					c(0, 14856.50143019912)
+				$end 'r0'
+			$end 'Zpi'
+			$begin 'TerminalPMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(0, 2)
+					c(0, 0)
+				$end 'r0'
+				$begin 'r1'
+					c(0, 0)
+					c(0, 2)
+				$end 'r1'
+			$end 'TerminalPMatrix'
+		$end 'DataPoint'
+		$begin 'DataPoint'
+			Frequency=31380310058.59374
+			DataType='None'
+			$begin 'SMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(-1.705259829674587, -3.17039730207118)
+					c(-0.7693142250601813, -3.168281799352354)
+				$end 'r0'
+				$begin 'r1'
+					c(-0.7693142250912153, -3.168281799363401)
+					c(-1.628550464350713, -3.168876583060248)
+				$end 'r1'
+			$end 'SMatrix'
+			EnergyError=0
+			IeEnergyError=0
+			$begin 'Gamma'
+				n=2
+				$begin 'r0'
+					c(5.026563671917726, 0)
+					c(4.956854188846879, 0)
+				$end 'r0'
+			$end 'Gamma'
+			$begin 'Zpi'
+				n=2
+				$begin 'r0'
+					c(0, 28102.00126137138)
+					c(0, 27886.56899378842)
+				$end 'r0'
+			$end 'Zpi'
+			$begin 'TerminalPMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(0, 2)
+					c(0, 0)
+				$end 'r0'
+				$begin 'r1'
+					c(0, 0)
+					c(0, 2)
+				$end 'r1'
+			$end 'TerminalPMatrix'
+		$end 'DataPoint'
+		$begin 'DataPoint'
+			Frequency=31380996704.10155
+			DataType='None'
+			$begin 'SMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(-1.644983955186062, -0.3279606893792252)
+					c(-0.6780932023172139, -0.3275382499031139)
+				$end 'r0'
+				$begin 'r1'
+					c(-0.6780932022604608, -0.3275382499246181)
+					c(-1.608733560959621, -0.3285151554128878)
+				$end 'r1'
+			$end 'SMatrix'
+			EnergyError=0
+			IeEnergyError=0
+			$begin 'Gamma'
+				n=2
+				$begin 'r0'
+					c(2.515017609342018, 0)
+					c(2.372630328666029, 0)
+				$end 'r0'
+			$end 'Gamma'
+			$begin 'Zpi'
+				n=2
+				$begin 'r0'
+					c(0, 46871.47917262313)
+					c(0, 45890.93865904798)
+				$end 'r0'
+			$end 'Zpi'
+			$begin 'TerminalPMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(0, 2)
+					c(0, 0)
+				$end 'r0'
+				$begin 'r1'
+					c(0, 0)
+					c(9.357451316603608e-08, 2.000000151493072)
+				$end 'r1'
+			$end 'TerminalPMatrix'
+		$end 'DataPoint'
+		$begin 'DataPoint'
+			Frequency=31381340026.85546
+			DataType='None'
+			$begin 'SMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(-0.8607602748794499, -0.2260217056455426)
+					c(0.1481280981048073, -0.2782457348409894)
+				$end 'r0'
+				$begin 'r1'
+					c(0.1481280980983827, -0.2782457348861118)
+					c(-0.8395590429971207, -0.2506622057438164)
+				$end 'r1'
+			$end 'SMatrix'
+			EnergyError=0
+			IeEnergyError=0
+			$begin 'Gamma'
+				n=2
+				$begin 'r0'
+					c(-0, 1.773515218388908)
+					c(-0, 1.959922225490796)
+				$end 'r0'
+			$end 'Gamma'
+			$begin 'Zpi'
+				n=2
+				$begin 'r0'
+					c(-0, 141911.2501683744)
+					c(-0, 120104.0851630194)
+				$end 'r0'
+			$end 'Zpi'
+			$begin 'TerminalPMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(-8.613376678225119e-11, 1.999999999960207)
+					c(0, 0)
+				$end 'r0'
+				$begin 'r1'
+					c(0, 0)
+					c(2.000000413472994, 3.150936770926049e-08)
+				$end 'r1'
+			$end 'TerminalPMatrix'
+		$end 'DataPoint'
+		$begin 'DataPoint'
+			Frequency=31381683349.60937
+			DataType='None'
+			$begin 'SMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(-0.6933270074651541, -0.3290686466426581)
+					c(0.311771890101701, -0.4106745177916063)
+				$end 'r0'
+				$begin 'r1'
+					c(0.3117718900724042, -0.4106745177722536)
+					c(-0.6749006538646107, -0.3370117336761581)
+				$end 'r1'
+			$end 'SMatrix'
+			EnergyError=0
+			IeEnergyError=0
+			$begin 'Gamma'
+				n=2
+				$begin 'r0'
+					c(-0, 3.551919150379815)
+					c(-0, 3.648570753915367)
+				$end 'r0'
+			$end 'Gamma'
+			$begin 'Zpi'
+				n=2
+				$begin 'r0'
+					c(53010.66041030241, 0)
+					c(54540.09772744543, 0)
+				$end 'r0'
+			$end 'Zpi'
+			$begin 'TerminalPMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(-0.01138432423823394, 1.991944938533646)
+					c(0, 0)
+				$end 'r0'
+				$begin 'r1'
+					c(0, 0)
+					c(2.000001682654744, 7.435047764735627e-09)
+				$end 'r1'
+			$end 'TerminalPMatrix'
+		$end 'DataPoint'
+		$begin 'DataPoint'
+			Frequency=31383056640.62499
+			DataType='None'
+			$begin 'SMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(-0.4560590015715539, -0.346010924421265)
+					c(0.5382353130453498, -0.4985265149976547)
+				$end 'r0'
+				$begin 'r1'
+					c(0.538235313028269, -0.4985265150075049)
+					c(-0.4401755812044058, -0.3440990880969022)
+				$end 'r1'
+			$end 'SMatrix'
+			EnergyError=0
+			IeEnergyError=0
+			$begin 'Gamma'
+				n=2
+				$begin 'r0'
+					c(-0, 7.10635345696343)
+					c(-0, 7.155151875030415)
+				$end 'r0'
+			$end 'Gamma'
+			$begin 'Zpi'
+				n=2
+				$begin 'r0'
+					c(22486.02049214979, 0)
+					c(22598.94714781949, 0)
+				$end 'r0'
+			$end 'Zpi'
+			$begin 'TerminalPMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(2, -0)
+					c(0, 0)
+				$end 'r0'
+				$begin 'r1'
+					c(0, 0)
+					c(2.000000446591355, 2.03047793775008e-08)
+				$end 'r1'
+			$end 'TerminalPMatrix'
+		$end 'DataPoint'
+		$begin 'DataPoint'
+			Frequency=31394042968.74999
+			DataType='None'
+			$begin 'SMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(-0.2343603364731477, -0.2141828375493133)
+					c(0.6856037656450727, -0.6072585549416837)
+				$end 'r0'
+				$begin 'r1'
+					c(0.6856037656388596, -0.607258554939007)
+					c(-0.2234021665456291, -0.2088350594336209)
+				$end 'r1'
+			$end 'SMatrix'
+			EnergyError=0
+			IeEnergyError=0
+			$begin 'Gamma'
+				n=2
+				$begin 'r0'
+					c(-0, 18.80513171903057)
+					c(-0, 18.82362658657055)
+				$end 'r0'
+			$end 'Gamma'
+			$begin 'Zpi'
+				n=2
+				$begin 'r0'
+					c(8179.870919712154, 0)
+					c(8185.355311766466, 0)
+				$end 'r0'
+			$end 'Zpi'
+			$begin 'TerminalPMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(-4.932807484564412e-09, 1.99999999772116)
+					c(0, 0)
+				$end 'r0'
+				$begin 'r1'
+					c(0, 0)
+					c(2.000000020763921, 9.312470987861451e-10)
+				$end 'r1'
+			$end 'TerminalPMatrix'
+		$end 'DataPoint'
+		$begin 'DataPoint'
+			Frequency=31416015624.99999
+			DataType='None'
+			$begin 'SMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(-0.2055690892364141, -0.139079172219533)
+					c(0.576106342430738, -0.7585552677290121)
+				$end 'r0'
+				$begin 'r1'
+					c(0.5761063424294571, -0.7585552677299584)
+					c(-0.1973812054193275, -0.135285684510999)
+				$end 'r1'
+			$end 'SMatrix'
+			EnergyError=0
+			IeEnergyError=0
+			$begin 'Gamma'
+				n=2
+				$begin 'r0'
+					c(-0, 30.98736382924421)
+					c(-0, 30.99859119353438)
+				$end 'r0'
+			$end 'Gamma'
+			$begin 'Zpi'
+				n=2
+				$begin 'r0'
+					c(4948.323477324096, 0)
+					c(4949.57369203602, 0)
+				$end 'r0'
+			$end 'Zpi'
+			$begin 'TerminalPMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(2.400430389143732, -0.2836457366153868)
+					c(0, 0)
+				$end 'r0'
+				$begin 'r1'
+					c(0, 0)
+					c(1.999999999565825, -1.714628438486643e-12)
+				$end 'r1'
+			$end 'TerminalPMatrix'
+		$end 'DataPoint'
+		$begin 'DataPoint'
+			Frequency=31503906249.99999
+			DataType='None'
+			$begin 'SMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(-0.2260841827064196, -0.01647901535209831)
+					c(0.06952197171236767, -0.9660563720075338)
+				$end 'r0'
+				$begin 'r1'
+					c(0.06952197171212174, -0.9660563720076136)
+					c(-0.2218606217376586, -0.01468425765900886)
+				$end 'r1'
+			$end 'SMatrix'
+			EnergyError=0
+			IeEnergyError=0
+			$begin 'Gamma'
+				n=2
+				$begin 'r0'
+					c(-0, 58.23053887174273)
+					c(-0, 58.2365142860647)
+				$end 'r0'
+			$end 'Gamma'
+			$begin 'Zpi'
+				n=2
+				$begin 'r0'
+					c(2636.363733751312, 0)
+					c(2636.57492574471, 0)
+				$end 'r0'
+			$end 'Zpi'
+			$begin 'TerminalPMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(2.010293149390511, -0.002134543572294849)
+					c(0, 0)
+				$end 'r0'
+				$begin 'r1'
+					c(0, 0)
+					c(2.000000000021319, 3.035793838599746e-12)
+				$end 'r1'
+			$end 'TerminalPMatrix'
+		$end 'DataPoint'
+		$begin 'DataPoint'
+			Frequency=31679687499.99999
+			DataType='None'
+			$begin 'SMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(-0.1986158570492473, 0.155438451969429)
+					c(-0.6052647970620296, -0.7520861305323973)
+				$end 'r0'
+				$begin 'r1'
+					c(-0.6052647970616831, -0.7520861305323109)
+					c(-0.1957137668601416, 0.1571917618938067)
+				$end 'r1'
+			$end 'SMatrix'
+			EnergyError=0
+			IeEnergyError=0
+			$begin 'Gamma'
+				n=2
+				$begin 'r0'
+					c(-0, 90.95232090998137)
+					c(-0, 90.95614667414162)
+				$end 'r0'
+			$end 'Gamma'
+			$begin 'Zpi'
+				n=2
+				$begin 'r0'
+					c(1696.664604224144, 0)
+					c(1696.732563565686, 0)
+				$end 'r0'
+			$end 'Zpi'
+			$begin 'TerminalPMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(-4.064452783361117e-06, 1.999998122150208)
+					c(0, 0)
+				$end 'r0'
+				$begin 'r1'
+					c(0, 0)
+					c(2.000000000016279, -2.691180611735187e-13)
+				$end 'r1'
+			$end 'TerminalPMatrix'
+		$end 'DataPoint'
+		$begin 'DataPoint'
+			Frequency=32031249999.99999
+			DataType='None'
+			$begin 'SMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(0.03424832374946218, 0.2944723836528468)
+					c(-0.9464536903376976, 0.1192876430934749)
+				$end 'r0'
+				$begin 'r1'
+					c(-0.9464536903377583, 0.1192876430934493)
+					c(0.03800705012572303, 0.2943043622770726)
+				$end 'r1'
+			$end 'SMatrix'
+			EnergyError=0
+			IeEnergyError=0
+			$begin 'Gamma'
+				n=2
+				$begin 'r0'
+					c(-0, 134.5989126514617)
+					c(-0, 134.6014978588861)
+				$end 'r0'
+			$end 'Gamma'
+			$begin 'Zpi'
+				n=2
+				$begin 'r0'
+					c(1159.043676992653, 0)
+					c(1159.072599422619, 0)
+				$end 'r0'
+			$end 'Zpi'
+			$begin 'TerminalPMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(1.999982618353312, 1.158660135682159e-05)
+					c(0, 0)
+				$end 'r0'
+				$begin 'r1'
+					c(0, 0)
+					c(1.999999999987018, 1.034727858937213e-13)
+				$end 'r1'
+			$end 'TerminalPMatrix'
+		$end 'DataPoint'
+		$begin 'DataPoint'
+			Frequency=32734374999.99999
+			DataType='None'
+			$begin 'SMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(0.3374781295860401, 0.01254276085731701)
+					c(-0.01929647601990291, 0.9369028636871052)
+				$end 'r0'
+				$begin 'r1'
+					c(-0.0192964760200542, 0.9369028636871332)
+					c(0.3400358245532891, 0.009366796962195671)
+				$end 'r1'
+			$end 'SMatrix'
+			EnergyError=0
+			IeEnergyError=0
+			$begin 'Gamma'
+				n=2
+				$begin 'r0'
+					c(-0, 195.2738865345379)
+					c(-0, 195.2756684822717)
+				$end 'r0'
+			$end 'Gamma'
+			$begin 'Zpi'
+				n=2
+				$begin 'r0'
+					c(816.3948580557054, 0)
+					c(816.4097949528044, 0)
+				$end 'r0'
+			$end 'Zpi'
+			$begin 'TerminalPMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(0.0005303197678096423, 2.00024500241178)
+					c(0, 0)
+				$end 'r0'
+				$begin 'r1'
+					c(0, 0)
+					c(2.000000000033158, -1.551647699267569e-12)
+				$end 'r1'
+			$end 'TerminalPMatrix'
+		$end 'DataPoint'
+		$begin 'DataPoint'
+			Frequency=33085937499.99999
+			DataType='None'
+			$begin 'SMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(0.2944837773988669, -0.1780950210318221)
+					c(0.4932376028711044, 0.7975663992434987)
+				$end 'r0'
+				$begin 'r1'
+					c(0.49323760287122, 0.7975663992434704)
+					c(0.2923553651280206, -0.1841197526163558)
+				$end 'r1'
+			$end 'SMatrix'
+			EnergyError=0
+			IeEnergyError=0
+			$begin 'Gamma'
+				n=2
+				$begin 'r0'
+					c(-0, 219.7780053362887)
+					c(-0, 219.7795886075279)
+				$end 'r0'
+			$end 'Gamma'
+			$begin 'Zpi'
+				n=2
+				$begin 'r0'
+					c(733.1526902511035, 0)
+					c(733.165174017258, 0)
+				$end 'r0'
+			$end 'Zpi'
+			$begin 'TerminalPMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(0.002055298107548808, 2.000948321583443)
+					c(0, 0)
+				$end 'r0'
+				$begin 'r1'
+					c(0, 0)
+					c(2.000000000010477, -5.240252676285642e-13)
+				$end 'r1'
+			$end 'TerminalPMatrix'
+		$end 'DataPoint'
+		$begin 'DataPoint'
+			Frequency=33261718750
+			DataType='None'
+			$begin 'SMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(0.2361913432995844, -0.2498658774107979)
+					c(0.6876233749419232, 0.6390430518084547)
+				$end 'r0'
+				$begin 'r1'
+					c(0.6876233749419438, 0.6390430518084017)
+					c(0.2320969890757729, -0.2542562390036712)
+				$end 'r1'
+			$end 'SMatrix'
+			EnergyError=0
+			IeEnergyError=0
+			$begin 'Gamma'
+				n=2
+				$begin 'r0'
+					c(-0, 231.1457426509336)
+					c(-0, 231.1472480574842)
+				$end 'r0'
+			$end 'Gamma'
+			$begin 'Zpi'
+				n=2
+				$begin 'r0'
+					c(700.7968582886626, 0)
+					c(700.8084713195748, 0)
+				$end 'r0'
+			$end 'Zpi'
+			$begin 'TerminalPMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(0.005712445110742408, 2.002626771788815)
+					c(0, 0)
+				$end 'r0'
+				$begin 'r1'
+					c(0, 0)
+					c(2.000000000002779, -2.32258656752228e-13)
+				$end 'r1'
+			$end 'TerminalPMatrix'
+		$end 'DataPoint'
+		$begin 'DataPoint'
+			Frequency=33437499999.99999
+			DataType='None'
+			$begin 'SMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(0.1637077082562466, -0.3001920565609308)
+					c(0.828648537873091, 0.4433140948102374)
+				$end 'r0'
+				$begin 'r1'
+					c(0.8286485378730896, 0.4433140948102409)
+					c(0.1589204592036397, -0.3027214629120581)
+				$end 'r1'
+			$end 'SMatrix'
+			EnergyError=0
+			IeEnergyError=0
+			$begin 'Gamma'
+				n=2
+				$begin 'r0'
+					c(-0, 242.0361513974912)
+					c(-0, 242.0375890687353)
+				$end 'r0'
+			$end 'Gamma'
+			$begin 'Zpi'
+				n=2
+				$begin 'r0'
+					c(672.7990654381931, 0)
+					c(672.8099600277695, 0)
+				$end 'r0'
+			$end 'Zpi'
+			$begin 'TerminalPMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(1.999999999711699, 5.275295984118064e-10)
+					c(0, 0)
+				$end 'r0'
+				$begin 'r1'
+					c(0, 0)
+					c(1.999999999696384, -2.931130234110722e-11)
+				$end 'r1'
+			$end 'TerminalPMatrix'
+		$end 'DataPoint'
+		$begin 'DataPoint'
+			Frequency=33789062499.99999
+			DataType='None'
+			$begin 'SMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(0.003763867014439537, -0.3343849045398738)
+					c(0.9425790747287965, 0.002457555404529015)
+				$end 'r0'
+				$begin 'r1'
+					c(0.9425790747288558, 0.002457555404595916)
+					c(-0.001193090383068807, -0.3342327447761156)
+				$end 'r1'
+			$end 'SMatrix'
+			EnergyError=0
+			IeEnergyError=0
+			$begin 'Gamma'
+				n=2
+				$begin 'r0'
+					c(-0, 262.6200137526405)
+					c(-0, 262.6213387414169)
+				$end 'r0'
+			$end 'Gamma'
+			$begin 'Zpi'
+				n=2
+				$begin 'r0'
+					c(626.5817445531593, 0)
+					c(626.5915206547334, 0)
+				$end 'r0'
+			$end 'Zpi'
+			$begin 'TerminalPMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(-0.007330655004208791, 1.996585493207378)
+					c(0, 0)
+				$end 'r0'
+				$begin 'r1'
+					c(0, 0)
+					c(1.999999999995169, 1.820765760376461e-13)
+				$end 'r1'
+			$end 'TerminalPMatrix'
+		$end 'DataPoint'
+		$begin 'DataPoint'
+			Frequency=34140624999.99998
+			DataType='None'
+			$begin 'SMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(-0.1396506559888179, -0.2906729758296003)
+					c(0.8492373915171764, -0.4182328516278999)
+				$end 'r0'
+				$begin 'r1'
+					c(0.8492373915172429, -0.4182328516278193)
+					c(-0.1443308661899412, -0.2882059623262589)
+				$end 'r1'
+			$end 'SMatrix'
+			EnergyError=0
+			IeEnergyError=0
+			$begin 'Gamma'
+				n=2
+				$begin 'r0'
+					c(-0, 281.8965958467417)
+					c(-0, 281.8978302308806)
+				$end 'r0'
+			$end 'Gamma'
+			$begin 'Zpi'
+				n=2
+				$begin 'r0'
+					c(589.8061010001028, 0)
+					c(589.8150438198638, 0)
+				$end 'r0'
+			$end 'Zpi'
+			$begin 'TerminalPMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(-0.006599111393695739, 1.996927604007876)
+					c(0, 0)
+				$end 'r0'
+				$begin 'r1'
+					c(0, 0)
+					c(1.999999999995347, 2.2382096176339e-13)
+				$end 'r1'
+			$end 'TerminalPMatrix'
+		$end 'DataPoint'
+		$begin 'DataPoint'
+			Frequency=34843749999.99998
+			DataType='None'
+			$begin 'SMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(-0.2768991573168464, -0.07579588020749051)
+					c(0.2415798542940428, -0.9267962598153834)
+				$end 'r0'
+				$begin 'r1'
+					c(0.2415798542939527, -0.9267962598154296)
+					c(-0.2790009146720753, -0.06980912590321374)
+				$end 'r1'
+			$end 'SMatrix'
+			EnergyError=0
+			IeEnergyError=0
+			$begin 'Gamma'
+				n=2
+				$begin 'r0'
+					c(-0, 317.4656946227717)
+					c(-0, 317.4667907060767)
+				$end 'r0'
+			$end 'Gamma'
+			$begin 'Zpi'
+				n=2
+				$begin 'r0'
+					c(534.5067856106564, 0)
+					c(534.5145631127277, 0)
+				$end 'r0'
+			$end 'Zpi'
+			$begin 'TerminalPMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(-0.009802931377262096, 1.995419350053707)
+					c(0, 0)
+				$end 'r0'
+				$begin 'r1'
+					c(0, 0)
+					c(-8.267753828148099e-09, 1.999999061617774)
+				$end 'r1'
+			$end 'TerminalPMatrix'
+		$end 'DataPoint'
+		$begin 'DataPoint'
+			Frequency=35546874999.99999
+			DataType='None'
+			$begin 'SMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(-0.2061594356072832, 0.121200291885104)
+					c(-0.5031418121727687, -0.8304507561643086)
+				$end 'r0'
+				$begin 'r1'
+					c(-0.503141812172773, -0.8304507561642858)
+					c(-0.2027658722963708, 0.1265562225713977)
+				$end 'r1'
+			$end 'SMatrix'
+			EnergyError=0
+			IeEnergyError=0
+			$begin 'Gamma'
+				n=2
+				$begin 'r0'
+					c(-0, 350.0540360006162)
+					c(-0, 350.0550300441625)
+				$end 'r0'
+			$end 'Gamma'
+			$begin 'Zpi'
+				n=2
+				$begin 'r0'
+					c(494.5267941129987, 0)
+					c(494.5337897713257, 0)
+				$end 'r0'
+			$end 'Zpi'
+			$begin 'TerminalPMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(-0.01769484008050051, 1.991663689232095)
+					c(0, 0)
+				$end 'r0'
+				$begin 'r1'
+					c(0, 0)
+					c(1.999999999999127, 3.774758283722235e-14)
+				$end 'r1'
+			$end 'TerminalPMatrix'
+		$end 'DataPoint'
+		$begin 'DataPoint'
+			Frequency=36249999999.99999
+			DataType='None'
+			$begin 'SMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(-0.05073779129296407, 0.1755466552107821)
+					c(-0.9486120371002432, -0.2586766299751819)
+				$end 'r0'
+				$begin 'r1'
+					c(-0.948612037100245, -0.2586766299751855)
+					c(-0.04523309324104496, 0.1770530165666865)
+				$end 'r1'
+			$end 'SMatrix'
+			EnergyError=0
+			IeEnergyError=0
+			$begin 'Gamma'
+				n=2
+				$begin 'r0'
+					c(-0, 380.4284076196039)
+					c(-0, 380.4293222963827)
+				$end 'r0'
+			$end 'Gamma'
+			$begin 'Zpi'
+				n=2
+				$begin 'r0'
+					c(464.0421083818335, 0)
+					c(464.0485394302578, 0)
+				$end 'r0'
+			$end 'Zpi'
+			$begin 'TerminalPMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(0.003746152160875088, 2.007706965115067)
+					c(0, 0)
+				$end 'r0'
+				$begin 'r1'
+					c(0, 0)
+					c(4.151030213962342e-08, 2.000005425381439)
+				$end 'r1'
+			$end 'TerminalPMatrix'
+		$end 'DataPoint'
+		$begin 'DataPoint'
+			Frequency=36601562500
+			DataType='None'
+			$begin 'SMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(0.01317186229987199, 0.1521721375644937)
+					c(-0.9831966636272966, 0.1011375074631015)
+				$end 'r0'
+				$begin 'r1'
+					c(-0.9831966636273346, 0.1011375074631056)
+					c(0.01825345401814693, 0.1517072405084138)
+				$end 'r1'
+			$end 'SMatrix'
+			EnergyError=0
+			IeEnergyError=0
+			$begin 'Gamma'
+				n=2
+				$begin 'r0'
+					c(-0, 394.9464711267154)
+					c(-0, 394.9473521804436)
+				$end 'r0'
+			$end 'Gamma'
+			$begin 'Zpi'
+				n=2
+				$begin 'r0'
+					c(451.3186096237764, 0)
+					c(451.324812642426, 0)
+				$end 'r0'
+			$end 'Zpi'
+			$begin 'TerminalPMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(-0.04654696939884585, 1.977436022615449)
+					c(0, 0)
+				$end 'r0'
+				$begin 'r1'
+					c(0, 0)
+					c(2.000000000000167, -8.881784197002729e-15)
+				$end 'r1'
+			$end 'TerminalPMatrix'
+		$end 'DataPoint'
+		$begin 'DataPoint'
+			Frequency=36953125000
+			DataType='None'
+			$begin 'SMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(0.05306602995853726, 0.1103932609750157)
+					c(-0.8871208162822642, 0.4452912135977335)
+				$end 'r0'
+				$begin 'r1'
+					c(-0.8871208162822892, 0.4452912135977515)
+					c(0.05696257146213224, 0.1085329286136421)
+				$end 'r1'
+			$end 'SMatrix'
+			EnergyError=0
+			IeEnergyError=0
+			$begin 'Gamma'
+				n=2
+				$begin 'r0'
+					c(-0, 409.0822690771615)
+					c(-0, 409.0831196862293)
+				$end 'r0'
+			$end 'Gamma'
+			$begin 'Zpi'
+				n=2
+				$begin 'r0'
+					c(439.9081028876262, 0)
+					c(439.9141050785903, 0)
+				$end 'r0'
+			$end 'Zpi'
+			$begin 'TerminalPMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(-0.06471676183623229, 1.968071324068861)
+					c(0, 0)
+				$end 'r0'
+				$begin 'r1'
+					c(0, 0)
+					c(2.000000000000295, -1.33226762955058e-14)
+				$end 'r1'
+			$end 'TerminalPMatrix'
+		$end 'DataPoint'
+		$begin 'DataPoint'
+			Frequency=37656250000
+			DataType='None'
+			$begin 'SMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(0.05911546470050499, 0.02580295975688114)
+					c(-0.3838881046710139, 0.9212682850605952)
+				$end 'r0'
+				$begin 'r1'
+					c(-0.3838881046710244, 0.9212682850605842)
+					c(0.06000796519648155, 0.02382842036503703)
+				$end 'r1'
+			$end 'SMatrix'
+			EnergyError=0
+			IeEnergyError=0
+			$begin 'Gamma'
+				n=2
+				$begin 'r0'
+					c(-0, 436.3546914704949)
+					c(-0, 436.3554889161068)
+				$end 'r0'
+			$end 'Gamma'
+			$begin 'Zpi'
+				n=2
+				$begin 'r0'
+					c(420.2601286518133, 0)
+					c(420.2657929050981, 0)
+				$end 'r0'
+			$end 'Zpi'
+			$begin 'TerminalPMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(-0.1259038996895551, 1.93415097717982)
+					c(0, 0)
+				$end 'r0'
+				$begin 'r1'
+					c(0, 0)
+					c(2.000000000000438, -1.199040866595694e-14)
+				$end 'r1'
+			$end 'TerminalPMatrix'
+		$end 'DataPoint'
+		$begin 'DataPoint'
+			Frequency=39062499999.99999
+			DataType='None'
+			$begin 'SMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(-0.008982503887337678, 0.008836222934996325)
+					c(0.8367436351398777, 0.5475816946810389)
+				$end 'r0'
+				$begin 'r1'
+					c(0.836743635139874, 0.5475816946810409)
+					c(-0.004403422802645829, 0.0118109319391707)
+				$end 'r1'
+			$end 'SMatrix'
+			EnergyError=0
+			IeEnergyError=0
+			$begin 'Gamma'
+				n=2
+				$begin 'r0'
+					c(-0, 487.6714032986832)
+					c(-0, 487.6721168307686)
+				$end 'r0'
+			$end 'Gamma'
+			$begin 'Zpi'
+				n=2
+				$begin 'r0'
+					c(390.0789692264399, 0)
+					c(390.0841328682479, 0)
+				$end 'r0'
+			$end 'Zpi'
+			$begin 'TerminalPMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(-0.4819602590928915, 1.644375935171603)
+					c(0, 0)
+				$end 'r0'
+				$begin 'r1'
+					c(0, 0)
+					c(2.000000000000224, -7.105427357602594e-15)
+				$end 'r1'
+			$end 'TerminalPMatrix'
+		$end 'DataPoint'
+		$begin 'DataPoint'
+			Frequency=40468749999.99999
+			DataType='None'
+			$begin 'SMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(-0.04098815819819912, -0.023372466248671)
+					c(0.6742633558432365, -0.7370224875222867)
+				$end 'r0'
+				$begin 'r1'
+					c(0.6742633558432334, -0.7370224875222871)
+					c(-0.02690149768783778, -0.03879557770449319)
+				$end 'r1'
+			$end 'SMatrix'
+			EnergyError=0
+			IeEnergyError=0
+			$begin 'Gamma'
+				n=2
+				$begin 'r0'
+					c(-0, 535.7048775258206)
+					c(-0, 535.7055270798043)
+				$end 'r0'
+			$end 'Gamma'
+			$begin 'Zpi'
+				n=2
+				$begin 'r0'
+					c(367.8860393992272, 0)
+					c(367.8908483988748, 0)
+				$end 'r0'
+			$end 'Zpi'
+			$begin 'TerminalPMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(-0.342415646528211, -0.5076748220540903)
+					c(0, 0)
+				$end 'r0'
+				$begin 'r1'
+					c(0, 0)
+					c(2.000000000000064, -3.108624468950637e-15)
+				$end 'r1'
+			$end 'TerminalPMatrix'
+		$end 'DataPoint'
+		$begin 'DataPoint'
+			Frequency=41875000000
+			DataType='None'
+			$begin 'SMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(-0.2463717704036019, 0.3336251145408982)
+					c(-0.6995216790179494, -0.5819673503474498)
+				$end 'r0'
+				$begin 'r1'
+					c(-0.6995216790179503, -0.5819673503474502)
+					c(-0.2832175154743384, 0.3029737631059539)
+				$end 'r1'
+			$end 'SMatrix'
+			EnergyError=0
+			IeEnergyError=0
+			$begin 'Gamma'
+				n=2
+				$begin 'r0'
+					c(-0, 581.2696202256416)
+					c(-0, 581.2702188622418)
+				$end 'r0'
+			$end 'Gamma'
+			$begin 'Zpi'
+				n=2
+				$begin 'r0'
+					c(350.8292717540772, 0)
+					c(350.833815488113, 0)
+				$end 'r0'
+			$end 'Zpi'
+			$begin 'TerminalPMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(1.999999999953209, 1.349425930152926e-13)
+					c(0, 0)
+				$end 'r0'
+				$begin 'r1'
+					c(0, 0)
+					c(1.562224458942851e-06, 2.000172631277321)
+				$end 'r1'
+			$end 'TerminalPMatrix'
+		$end 'DataPoint'
+		$begin 'DataPoint'
+			Frequency=43281249999.99999
+			DataType='None'
+			$begin 'SMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(0.8047267268320359, 0.3714231220133926)
+					c(-0.20809740744185, 0.4137453172299416)
+				$end 'r0'
+				$begin 'r1'
+					c(-0.2080974074418518, 0.4137453172299421)
+					c(0.7779734348083516, 0.4245999092851341)
+				$end 'r1'
+			$end 'SMatrix'
+			EnergyError=0
+			IeEnergyError=0
+			$begin 'Gamma'
+				n=2
+				$begin 'r0'
+					c(-0, 624.9058844115872)
+					c(-0, 624.906441246308)
+				$end 'r0'
+			$end 'Gamma'
+			$begin 'Zpi'
+				n=2
+				$begin 'r0'
+					c(337.2899765761939, 0)
+					c(337.294314050567, 0)
+				$end 'r0'
+			$end 'Zpi'
+			$begin 'TerminalPMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(2.113369968136733, 0.3456337622986542)
+					c(0, 0)
+				$end 'r0'
+				$begin 'r1'
+					c(0, 0)
+					c(1.99999999999998, -0)
+				$end 'r1'
+			$end 'TerminalPMatrix'
+		$end 'DataPoint'
+		$begin 'DataPoint'
+			Frequency=44687500000
+			DataType='None'
+			$begin 'SMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(0.5547660429796535, -0.8229701804139169)
+					c(0.09975066979510908, 0.07080718159959529)
+				$end 'r0'
+				$begin 'r1'
+					c(0.09975066979510794, 0.07080718159959605)
+					c(0.59387693615637, -0.7952054697573527)
+				$end 'r1'
+			$end 'SMatrix'
+			EnergyError=0
+			IeEnergyError=0
+			$begin 'Gamma'
+				n=2
+				$begin 'r0'
+					c(-0, 666.9922748651998)
+					c(-0, 666.992796564364)
+				$end 'r0'
+			$end 'Gamma'
+			$begin 'Zpi'
+				n=2
+				$begin 'r0'
+					c(326.2745632498808, 0)
+					c(326.2787356123494, 0)
+				$end 'r0'
+			$end 'Zpi'
+			$begin 'TerminalPMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(2.087297566156662, 0.2349133615608442)
+					c(0, 0)
+				$end 'r0'
+				$begin 'r1'
+					c(0, 0)
+					c(2.000000000000004, 4.440892098500642e-16)
+				$end 'r1'
+			$end 'TerminalPMatrix'
+		$end 'DataPoint'
+		$begin 'DataPoint'
+			Frequency=46093750000
+			DataType='None'
+			$begin 'SMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(-0.5038381906281157, -0.8637262455471839)
+					c(0.009748189725785431, -0.005436998680861931)
+				$end 'r0'
+				$begin 'r1'
+					c(0.009748189725785438, -0.005436998680861983)
+					c(-0.4701329697509269, -0.8825251733395673)
+				$end 'r1'
+			$end 'SMatrix'
+			EnergyError=0
+			IeEnergyError=0
+			$begin 'Gamma'
+				n=2
+				$begin 'r0'
+					c(-0, 707.8053139600888)
+					c(-0, 707.8058055773751)
+				$end 'r0'
+			$end 'Gamma'
+			$begin 'Zpi'
+				n=2
+				$begin 'r0'
+					c(317.1362960341638, 0)
+					c(317.1403331980069, 0)
+				$end 'r0'
+			$end 'Zpi'
+			$begin 'TerminalPMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(2.038862152638926, 0.08996232593050885)
+					c(0, 0)
+				$end 'r0'
+				$begin 'r1'
+					c(0, 0)
+					c(2.000000000000004, -4.440892098500643e-16)
+				$end 'r1'
+			$end 'TerminalPMatrix'
+		$end 'DataPoint'
+		$begin 'DataPoint'
+			Frequency=47500000000
+			DataType='None'
+			$begin 'SMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(-0.9994579924491462, -0.02835291241842063)
+					c(0.0007497141514904643, -0.01671142171111791)
+				$end 'r0'
+				$begin 'r1'
+					c(0.0007497141514904639, -0.01671142171111789)
+					c(-0.997981837113988, -0.0612569922839318)
+				$end 'r1'
+			$end 'SMatrix'
+			EnergyError=0
+			IeEnergyError=0
+			$begin 'Gamma'
+				n=2
+				$begin 'r0'
+					c(-0, 747.5535884423841)
+					c(-0, 747.5540539198367)
+				$end 'r0'
+			$end 'Gamma'
+			$begin 'Zpi'
+				n=2
+				$begin 'r0'
+					c(309.434556421049, 0)
+					c(309.4384808548401, 0)
+				$end 'r0'
+			$end 'Zpi'
+			$begin 'TerminalPMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(2.000000000000428, 2.219844091710649e-15)
+					c(0, 0)
+				$end 'r0'
+				$begin 'r1'
+					c(0, 0)
+					c(1.891753769350769e-05, 2.001650697184384)
+				$end 'r1'
+			$end 'TerminalPMatrix'
+		$end 'DataPoint'
+		$begin 'DataPoint'
+			Frequency=48906250000
+			DataType='None'
+			$begin 'SMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(-0.4880298061332239, 0.8514291774795913)
+					c(-0.1652165110794147, -0.09797593960407569)
+				$end 'r0'
+				$begin 'r1'
+					c(-0.1652165110794144, -0.09797593960407579)
+					c(-0.5130069560610226, 0.8366172233772433)
+				$end 'r1'
+			$end 'SMatrix'
+			EnergyError=0
+			IeEnergyError=0
+			$begin 'Gamma'
+				n=2
+				$begin 'r0'
+					c(-0, 786.3985694917625)
+					c(-0, 786.3990119764818)
+				$end 'r0'
+			$end 'Gamma'
+			$begin 'Zpi'
+				n=2
+				$begin 'r0'
+					c(302.8579796340198, 0)
+					c(302.8618086651082, 0)
+				$end 'r0'
+			$end 'Zpi'
+			$begin 'TerminalPMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(1.982238343409298, -0.0361901165061416)
+					c(0, 0)
+				$end 'r0'
+				$begin 'r1'
+					c(0, 0)
+					c(1.999999999999997, 2.220446049250307e-15)
+				$end 'r1'
+			$end 'TerminalPMatrix'
+		$end 'DataPoint'
+		$begin 'DataPoint'
+			Frequency=49609375000
+			DataType='None'
+			$begin 'SMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(0.2615939298174039, 0.7754828257844411)
+					c(-0.5470797468517709, 0.1757871170064002)
+				$end 'r0'
+				$begin 'r1'
+					c(-0.5470797468517717, 0.1757871170063997)
+					c(0.2390862456018046, 0.7827147064224813)
+				$end 'r1'
+			$end 'SMatrix'
+			EnergyError=0
+			IeEnergyError=0
+			$begin 'Gamma'
+				n=2
+				$begin 'r0'
+					c(-0, 805.5232820161007)
+					c(-0, 805.5237139953648)
+				$end 'r0'
+			$end 'Gamma'
+			$begin 'Zpi'
+				n=2
+				$begin 'r0'
+					c(299.9182956691899, 0)
+					c(299.922082306923, 0)
+				$end 'r0'
+			$end 'Zpi'
+			$begin 'TerminalPMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(1.980194462389025, -0.04013855909008805)
+					c(0, 0)
+				$end 'r0'
+				$begin 'r1'
+					c(0, 0)
+					c(2.000000000000014, 8.881784197001373e-16)
+				$end 'r1'
+			$end 'TerminalPMatrix'
+		$end 'DataPoint'
+		$begin 'DataPoint'
+			Frequency=50312500000
+			DataType='None'
+			$begin 'SMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(-0.3060387660245154, 0.1585426428377354)
+					c(0.4218731576417586, 0.8385877746788594)
+				$end 'r0'
+				$begin 'r1'
+					c(0.4218731576417646, 0.8385877746788614)
+					c(-0.3097173882774061, 0.1512306225718272)
+				$end 'r1'
+			$end 'SMatrix'
+			EnergyError=0
+			IeEnergyError=0
+			$begin 'Gamma'
+				n=2
+				$begin 'r0'
+					c(-0, 824.4679435775272)
+					c(-0, 824.4683656307565)
+				$end 'r0'
+			$end 'Gamma'
+			$begin 'Zpi'
+				n=2
+				$begin 'r0'
+					c(297.1798499449857, 0)
+					c(297.1835972290646, 0)
+				$end 'r0'
+			$end 'Zpi'
+			$begin 'TerminalPMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(1.981347155829179, -0.03782195145768878)
+					c(0, 0)
+				$end 'r0'
+				$begin 'r1'
+					c(0, 0)
+					c(1.999999999999994, -4.440892098500598e-16)
+				$end 'r1'
+			$end 'TerminalPMatrix'
+		$end 'DataPoint'
+		$begin 'DataPoint'
+			Frequency=51718750000
+			DataType='None'
+			$begin 'SMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(0.4095008029321543, 0.7986893028143943)
+					c(0.3948061487012273, -0.1963132489022537)
+				$end 'r0'
+				$begin 'r1'
+					c(0.3948061487012297, -0.1963132489022545)
+					c(0.3896839627841635, 0.8085435194011064)
+				$end 'r1'
+			$end 'SMatrix'
+			EnergyError=0
+			IeEnergyError=0
+			$begin 'Gamma'
+				n=2
+				$begin 'r0'
+					c(-0, 861.864494719369)
+					c(-0, 861.8648984595989)
+				$end 'r0'
+			$end 'Gamma'
+			$begin 'Zpi'
+				n=2
+				$begin 'r0'
+					c(292.2309089074203, 0)
+					c(292.2345854040274, 0)
+				$end 'r0'
+			$end 'Zpi'
+			$begin 'TerminalPMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(1.989326831135082, -0.02189455867392832)
+					c(0, 0)
+				$end 'r0'
+				$begin 'r1'
+					c(0, 0)
+					c(2.000000000000012, 1.776356839400271e-15)
+				$end 'r1'
+			$end 'TerminalPMatrix'
+		$end 'DataPoint'
+		$begin 'DataPoint'
+			Frequency=53125000000
+			DataType='None'
+			$begin 'SMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(0.9211587943518087, 0.1942518916381729)
+					c(0.07346349110811705, -0.3291582458398735)
+				$end 'r0'
+				$begin 'r1'
+					c(0.0734634911081217, -0.3291582458398734)
+					c(0.9163413969733127, 0.2158501212908998)
+				$end 'r1'
+			$end 'SMatrix'
+			EnergyError=0
+			IeEnergyError=0
+			$begin 'Gamma'
+				n=2
+				$begin 'r0'
+					c(-0, 898.672221620018)
+					c(-0, 898.6726088239018)
+				$end 'r0'
+			$end 'Gamma'
+			$begin 'Zpi'
+				n=2
+				$begin 'r0'
+					c(287.8820876276825, 0)
+					c(287.8857022695542, 0)
+				$end 'r0'
+			$end 'Zpi'
+			$begin 'TerminalPMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(1.999999999999888, 6.747624033570461e-14)
+					c(0, 0)
+				$end 'r0'
+				$begin 'r1'
+					c(0, 0)
+					c(0.0005509176970961134, 2.020975127524327)
+				$end 'r1'
+			$end 'TerminalPMatrix'
+		$end 'DataPoint'
+		$begin 'DataPoint'
+			Frequency=55937500000.00001
+			DataType='None'
+			$begin 'SMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(0.2068105170097054, -0.9370876388100203)
+					c(-0.2739404989710763, -0.06364954339143258)
+				$end 'r0'
+				$begin 'r1'
+					c(-0.2739404989710689, -0.06364954339142458)
+					c(0.227537509386732, -0.9322806444319111)
+				$end 'r1'
+			$end 'SMatrix'
+			EnergyError=0
+			IeEnergyError=0
+			$begin 'Gamma'
+				n=2
+				$begin 'r0'
+					c(-0, 970.7880733541198)
+					c(-0, 970.7884317942315)
+				$end 'r0'
+			$end 'Gamma'
+			$begin 'Zpi'
+				n=2
+				$begin 'r0'
+					c(280.6050436782543, 0)
+					c(280.6085555324966, 0)
+				$end 'r0'
+			$end 'Zpi'
+			$begin 'TerminalPMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(2.017195801550262, 0.03689778002261764)
+					c(0, 0)
+				$end 'r0'
+				$begin 'r1'
+					c(0, 0)
+					c(2.000000000000004, 1.776356839400258e-15)
+				$end 'r1'
+			$end 'TerminalPMatrix'
+		$end 'DataPoint'
+		$begin 'DataPoint'
+			Frequency=58750000000
+			DataType='None'
+			$begin 'SMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(-0.914409869318668, -0.2970400435593037)
+					c(-0.08792019958712756, 0.2605594925712343)
+				$end 'r0'
+				$begin 'r1'
+					c(-0.08792019958712934, 0.2605594925712386)
+					c(-0.9074381992229699, -0.3177020539703905)
+				$end 'r1'
+			$end 'SMatrix'
+			EnergyError=0
+			IeEnergyError=0
+			$begin 'Gamma'
+				n=2
+				$begin 'r0'
+					c(-0, 1041.24951589539)
+					c(-0, 1041.249850079838)
+				$end 'r0'
+			$end 'Gamma'
+			$begin 'Zpi'
+				n=2
+				$begin 'r0'
+					c(274.7702957117636, 0)
+					c(274.7737257851886, 0)
+				$end 'r0'
+			$end 'Zpi'
+			$begin 'TerminalPMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(2.596632735872034, 0.6798543438380411)
+					c(0, 0)
+				$end 'r0'
+				$begin 'r1'
+					c(0, 0)
+					c(0.001719374304078835, 2.054333756333694)
+				$end 'r1'
+			$end 'TerminalPMatrix'
+		$end 'DataPoint'
+		$begin 'DataPoint'
+			Frequency=61562500000
+			DataType='None'
+			$begin 'SMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(-0.4074954104710548, 0.8634936288718112)
+					c(0.2671327228762372, 0.13012205866177)
+				$end 'r0'
+				$begin 'r1'
+					c(0.2671327228762281, 0.1301220586617692)
+					c(-0.4287266168962095, 0.8531742866041404)
+				$end 'r1'
+			$end 'SMatrix'
+			EnergyError=0
+			IeEnergyError=0
+			$begin 'Gamma'
+				n=2
+				$begin 'r0'
+					c(-0, 1110.371548117479)
+					c(-0, 1110.37186149852)
+				$end 'r0'
+			$end 'Gamma'
+			$begin 'Zpi'
+				n=2
+				$begin 'r0'
+					c(270.0004832848351, 0)
+					c(270.0038469143749, 0)
+				$end 'r0'
+			$end 'Zpi'
+			$begin 'TerminalPMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(2.016569622754772, 0.03494336692482657)
+					c(0, 0)
+				$end 'r0'
+				$begin 'r1'
+					c(0, 0)
+					c(1.999999999999998, -2.220446049250309e-15)
+				$end 'r1'
+			$end 'TerminalPMatrix'
+		$end 'DataPoint'
+		$begin 'DataPoint'
+			Frequency=64374999999.99998
+			DataType='None'
+			$begin 'SMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(0.793510180673342, 0.4872831854372817)
+					c(0.1952189484337201, -0.3074965054467935)
+				$end 'r0'
+				$begin 'r1'
+					c(0.1952189484339942, -0.3074965054463093)
+					c(0.7786830758577372, 0.5108658805484237)
+				$end 'r1'
+			$end 'SMatrix'
+			EnergyError=0
+			IeEnergyError=0
+			$begin 'Gamma'
+				n=2
+				$begin 'r0'
+					c(-0, 1178.389895117852)
+					c(-0, 1178.390190410103)
+				$end 'r0'
+			$end 'Gamma'
+			$begin 'Zpi'
+				n=2
+				$begin 'r0'
+					c(266.0386687792412, 0)
+					c(266.0419774962399, 0)
+				$end 'r0'
+			$end 'Zpi'
+			$begin 'TerminalPMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(1.999999999999951, -2.664389876189684e-15)
+					c(0, 0)
+				$end 'r0'
+				$begin 'r1'
+					c(0, 0)
+					c(2, -1.77635683940025e-15)
+				$end 'r1'
+			$end 'TerminalPMatrix'
+		$end 'DataPoint'
+		$begin 'DataPoint'
+			Frequency=65781249999.99999
+			DataType='None'
+			$begin 'SMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(0.876909360829021, -0.1979605138232238)
+					c(-0.08830834752646778, -0.4286217316691626)
+				$end 'r0'
+				$begin 'r1'
+					c(-0.08830834752650232, -0.4286217316691672)
+					c(0.8838965585170013, -0.1648625781308805)
+				$end 'r1'
+			$end 'SMatrix'
+			EnergyError=0
+			IeEnergyError=0
+			$begin 'Gamma'
+				n=2
+				$begin 'r0'
+					c(-0, 1212.043372166765)
+					c(-0, 1212.043659259962)
+				$end 'r0'
+			$end 'Gamma'
+			$begin 'Zpi'
+				n=2
+				$begin 'r0'
+					c(264.3020049404442, 0)
+					c(264.3052896643956, 0)
+				$end 'r0'
+			$end 'Zpi'
+			$begin 'TerminalPMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(1.988219134247069, -0.02324177227448401)
+					c(0, 0)
+				$end 'r0'
+				$begin 'r1'
+					c(0, 0)
+					c(2.000000000000023, 1.687538997430276e-14)
+				$end 'r1'
+			$end 'TerminalPMatrix'
+		$end 'DataPoint'
+		$begin 'DataPoint'
+			Frequency=67187499999.99998
+			DataType='None'
+			$begin 'SMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(0.368975973819893, -0.7207498964272544)
+					c(-0.5138894150442467, -0.2828373387268773)
+				$end 'r0'
+				$begin 'r1'
+					c(-0.5138894150441918, -0.2828373387266181)
+					c(0.411465948534562, -0.6975249796325952)
+				$end 'r1'
+			$end 'SMatrix'
+			EnergyError=0
+			IeEnergyError=0
+			$begin 'Gamma'
+				n=2
+				$begin 'r0'
+					c(-0, 1245.485393127338)
+					c(-0, 1245.485672511915)
+				$end 'r0'
+			$end 'Gamma'
+			$begin 'Zpi'
+				n=2
+				$begin 'r0'
+					c(262.7037705093098, 0)
+					c(262.7070331942741, 0)
+				$end 'r0'
+			$end 'Zpi'
+			$begin 'TerminalPMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(1.974288144006746, -0.04931126929709233)
+					c(0, 0)
+				$end 'r0'
+				$begin 'r1'
+					c(0, 0)
+					c(1.999999999999998, -0)
+				$end 'r1'
+			$end 'TerminalPMatrix'
+		$end 'DataPoint'
+		$begin 'DataPoint'
+			Frequency=68593749999.99998
+			DataType='None'
+			$begin 'SMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(-0.2786987536068765, -0.2215180154561509)
+					c(-0.6661204908327721, 0.655305822782375)
+				$end 'r0'
+				$begin 'r1'
+					c(-0.6661204908327762, 0.6553058227823656)
+					c(-0.2169858666578272, -0.2821596968107961)
+				$end 'r1'
+			$end 'SMatrix'
+			EnergyError=0
+			IeEnergyError=0
+			$begin 'Gamma'
+				n=2
+				$begin 'r0'
+					c(-0, 1278.732548407366)
+					c(-0, 1278.732820527922)
+				$end 'r0'
+			$end 'Gamma'
+			$begin 'Zpi'
+				n=2
+				$begin 'r0'
+					c(261.2289222898643, 0)
+					c(261.232164672422, 0)
+				$end 'r0'
+			$end 'Zpi'
+			$begin 'TerminalPMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(1.958335458559753, -0.07753152978537704)
+					c(0, 0)
+				$end 'r0'
+				$begin 'r1'
+					c(0, 0)
+					c(1.999999999999994, -1.776356839400239e-15)
+				$end 'r1'
+			$end 'TerminalPMatrix'
+		$end 'DataPoint'
+		$begin 'DataPoint'
+			Frequency=69296874999.99998
+			DataType='None'
+			$begin 'SMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(0.4074884921195652, -0.1023645668909204)
+					c(0.3149837803315094, 0.8508201682208162)
+				$end 'r0'
+				$begin 'r1'
+					c(0.3149837803314776, 0.8508201682208355)
+					c(0.3760733836494301, -0.187764189142429)
+				$end 'r1'
+			$end 'SMatrix'
+			EnergyError=0
+			IeEnergyError=0
+			$begin 'Gamma'
+				n=2
+				$begin 'r0'
+					c(-0, 1295.287744019186)
+					c(-0, 1295.288012661744)
+				$end 'r0'
+			$end 'Gamma'
+			$begin 'Zpi'
+				n=2
+				$begin 'r0'
+					c(260.5336426271692, 0)
+					c(260.5368754503153, 0)
+				$end 'r0'
+			$end 'Zpi'
+			$begin 'TerminalPMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(1.949641184163435, -0.09225769102058258)
+					c(0, 0)
+				$end 'r0'
+				$begin 'r1'
+					c(0, 0)
+					c(2.00000000000001, 1.776356839400268e-15)
+				$end 'r1'
+			$end 'TerminalPMatrix'
+		$end 'DataPoint'
+		$begin 'DataPoint'
+			Frequency=70000000000
+			DataType='None'
+			$begin 'SMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(0.08265795571131318, -0.9327675177617588)
+					c(0.3495372795569726, 0.02344131354395899)
+				$end 'r0'
+				$begin 'r1'
+					c(0.3495372795543508, 0.02344131355257619)
+					c(0.0424970001771019, -0.935594246242048)
+				$end 'r1'
+			$end 'SMatrix'
+			EnergyError=0
+			IeEnergyError=0
+			$begin 'Gamma'
+				n=2
+				$begin 'r0'
+					c(-0, 1311.799654521182)
+					c(-0, 1311.799919782279)
+				$end 'r0'
+			$end 'Gamma'
+			$begin 'Zpi'
+				n=2
+				$begin 'r0'
+					c(259.8644861163981, 0)
+					c(259.8677097463192, 0)
+				$end 'r0'
+			$end 'Zpi'
+			$begin 'TerminalPMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(1.369910889695099, -0.2201914144616852)
+					c(0, 0)
+				$end 'r0'
+				$begin 'r1'
+					c(0, 0)
+					c(0.005848199484907813, 1.783858537375769)
+				$end 'r1'
+			$end 'TerminalPMatrix'
+		$end 'DataPoint'
+	$end 'Frequencies'
+	$begin 'Ports'
+		Port(ModalEntryName='P1', TerminalEntryName='P1', PortName='P1', Mode=1, ModeName='', TerminalName='', ParameterName='', MatrixIndex=0)
+		Port(ModalEntryName='P2', TerminalEntryName='P2', PortName='P2', Mode=1, ModeName='', TerminalName='', ParameterName='', MatrixIndex=1)
+	$end 'Ports'
+	$begin 'OtherStateSpaceModels'
+	$end 'OtherStateSpaceModels'
+	HigherOrderMode=false
+	PortNames('P1', 'P2')
+	PortModes(1, 1)
+	ModalData=true
+	LastSolvedFreq=0
+	PreferredImpedance='Zpi'
+	$begin 'InterpolationBasis'
+		ErrorTolerance=0.002
+		MaxBasisSize=100
+		BasisSize=53
+		LowSampleFreq=25000000000
+		LowFullRangeFreq=25000000000
+		HighFullRangeFreq=70000000000
+		NumSamples=451
+		MaxSubRangeBasisSize=20
+		MinNumSubRanges=1
+		WeightedErrorForUI=1
+		LastBasisFreq=29921874999.99999
+		NumRanges=5
+		Ranges(25000000000, 30625000000, 30625000000, 30625000000, 33437500000, 33437500000, 33437500000, 36249999999.99999, 36249999999.99999, 36249999999.99999, 47500000000, 47500000000, 47500000000, 70000000000, 70000000000)
+		FreqSequence(70000000000, 25000000000, 47500000000, 58750000000, 36249999999.99999, 41875000000, 53125000000, 30624999999.99999, 33437499999.99999, 34843749999.99998, 55937500000.00001, 64374999999.99998, 61562500000, 67187499999.99998, 65781249999.99999, 44687500000, 46093750000, 68593749999.99998, 69296874999.99998, 43281249999.99999, 39062499999.99999, 40468749999.99999, 32031249999.99999, 31679687499.99999, 31152343749.99999, 50312500000, 48906250000, 49609375000, 27812500000, 37656250000, 31503906249.99999, 51718750000, 31328124999.99999, 31416015624.99999, 31394042968.74999, 36953125000, 35546874999.99999, 34140624999.99998, 31383056640.62499, 36601562500, 31372070312.49999, 31377563476.56249, 31381683349.60937, 31381340026.85546, 31380310058.59374, 29218749999.99999, 31380996704.10155, 30976562499.99999, 32734374999.99999, 33085937499.99999, 33789062499.99999, 33261718750, 29921874999.99999)
+		ExtrapolationType=0
+		ExtrapolationIsConverged=false
+		ExtrapolationFreqCutoff=1500
+		ExtrapFreqSequence()
+	$end 'InterpolationBasis'
+$end 'soln'
